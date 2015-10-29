@@ -15,7 +15,6 @@
 		74585C581BE1AD2100B48416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74585C561BE1AD2100B48416 /* LaunchScreen.storyboard */; };
 		74585C631BE1AD2100B48416 /* _DTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74585C621BE1AD2100B48416 /* _DTouchDemoTests.m */; };
 		74585C6E1BE1AD2100B48416 /* _DTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74585C6D1BE1AD2100B48416 /* _DTouchDemoUITests.m */; };
-		74585C801BE1AFDE00B48416 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74585C7F1BE1AFDE00B48416 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,6 @@
 		74585C691BE1AD2100B48416 /* 3DTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74585C6D1BE1AD2100B48416 /* _DTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchDemoUITests.m; sourceTree = "<group>"; };
 		74585C6F1BE1AD2100B48416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74585C7E1BE1AFDE00B48416 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		74585C7F1BE1AFDE00B48416 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +105,6 @@
 				74585C4C1BE1AD2100B48416 /* AppDelegate.m */,
 				74585C4E1BE1AD2100B48416 /* ViewController.h */,
 				74585C4F1BE1AD2100B48416 /* ViewController.m */,
-				74585C7E1BE1AFDE00B48416 /* SecondViewController.h */,
-				74585C7F1BE1AFDE00B48416 /* SecondViewController.m */,
 				74585C511BE1AD2100B48416 /* Main.storyboard */,
 				74585C541BE1AD2100B48416 /* Assets.xcassets */,
 				74585C561BE1AD2100B48416 /* LaunchScreen.storyboard */,
@@ -276,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74585C801BE1AFDE00B48416 /* SecondViewController.m in Sources */,
 				74585C501BE1AD2100B48416 /* ViewController.m in Sources */,
 				74585C4D1BE1AD2100B48416 /* AppDelegate.m in Sources */,
 				74585C4A1BE1AD2100B48416 /* main.m in Sources */,
@@ -507,6 +501,7 @@
 				74585C741BE1AD2100B48416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74585C751BE1AD2100B48416 /* Build configuration list for PBXNativeTarget "3DTouchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +510,7 @@
 				74585C771BE1AD2100B48416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74585C781BE1AD2100B48416 /* Build configuration list for PBXNativeTarget "3DTouchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +519,7 @@
 				74585C7A1BE1AD2100B48416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

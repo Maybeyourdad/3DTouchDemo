@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -18,15 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.title = @"打电话";
-    self.view.backgroundColor = [UIColor redColor];
 }
 
-
-- (IBAction)pushBtn_Click:(UIButton *)sender {
-    SecondViewController *vc = [[SecondViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
 
 @end

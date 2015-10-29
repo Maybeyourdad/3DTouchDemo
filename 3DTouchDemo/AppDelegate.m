@@ -8,10 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "SecondViewController.h"
-#import <MessageUI/MessageUI.h>
 
-@interface AppDelegate () <MFMessageComposeViewControllerDelegate>
+@interface AppDelegate ()
 
 @end
 
